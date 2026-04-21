@@ -11,7 +11,7 @@ export default function Experience() {
         </h2>
 
         {/* PCB circuit-board timeline */}
-        <div className="relative ml-4 sm:ml-8">
+        <div className="relative sm:ml-8">
           {/* Vertical trace */}
           <div className="absolute left-[7px] top-3 bottom-3 w-[2px] bg-terminal-dark/40" />
 
@@ -31,18 +31,16 @@ export default function Experience() {
               </div>
 
               {/* Experience card */}
-              <div className="border border-border rounded-lg bg-surface p-4 hover:border-terminal-dark/50 transition-colors">
-                <div className="flex items-start justify-between mb-2">
-                  <div>
-                    <span className="text-terminal-green text-sm font-bold">
-                      {exp.org}
-                    </span>
-                    <span className="text-foreground text-xs ml-2">
-                      — {exp.role}
-                    </span>
-                  </div>
-                  <span className="text-muted text-[10px] whitespace-nowrap ml-4">
-                    {exp.date}
+              <div className="border border-border rounded-lg bg-surface p-3 sm:p-4 hover:border-terminal-dark/50 transition-colors">
+                <div className="text-muted text-[10px] mb-1">
+                  {exp.date}
+                </div>
+                <div className="mb-2">
+                  <span className="text-terminal-green text-sm font-bold">
+                    {exp.org}
+                  </span>
+                  <span className="text-foreground text-xs ml-2">
+                    — {exp.role}
                   </span>
                 </div>
                 <p className="text-foreground/70 text-xs leading-relaxed">
@@ -75,7 +73,7 @@ export default function Experience() {
           ))}
         </div>
 
-        <div className="mt-10 text-xs text-muted ml-4 sm:ml-8">
+        <div className="mt-10 text-xs text-muted sm:ml-8">
           // {experiences.length} entries loaded from /var/log/career.log
         </div>
       </div>

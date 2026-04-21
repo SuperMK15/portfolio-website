@@ -56,7 +56,7 @@ export default function ProjectModal({
       <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />
 
       <div
-        className="relative w-full max-w-2xl border border-border rounded-lg overflow-hidden bg-surface"
+        className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto border border-border rounded-lg bg-surface"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Window controls */}

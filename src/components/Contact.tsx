@@ -57,13 +57,13 @@ export default function Contact() {
             <div className="space-y-2">
               <div className="text-terminal-dim">{".socials {"}</div>
               {socials.map((s) => (
-                <div key={s.label} className="pl-6 flex gap-2">
-                  <span className="text-muted w-20">{s.label}:</span>
+                <div key={s.label} className="pl-4 sm:pl-6 flex flex-wrap gap-x-2">
+                  <span className="text-muted w-16 sm:w-20 shrink-0">{s.label}:</span>
                   <a
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-terminal-green hover:underline"
+                    className="text-terminal-green hover:underline break-all"
                   >
                     {s.value}
                   </a>
