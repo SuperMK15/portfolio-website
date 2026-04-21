@@ -262,7 +262,12 @@ export const experiences = [
     terminal_name: "nokia",
     date: "SEPTEMBER 2024 - DECEMBER 2024",
     description:
-      "Developed autonomous applications based on the OODA control loop for next-gen telco networks focusing on UPF congestion and network slice management.",
+      "Developed a PoC for Nokia's next generation autonomous networks.",
+    bullets: [
+      "Developed autonomous applications based on the OODA control loop for next-gen telecommunications networks, focusing on UPF congestion and network slice management to approach an L5 autonomous network.",
+      "Leveraged cloud-native technologies including Docker and Kubernetes, coding custom Kubernetes operators in Go to enable intent-based networking and MLOps for seamless cloud runtime management.",
+      "Developed a Crossplane-based edge cloud automation solution, cutting deployment time by over 95% from 2 hours to under 5 minutes, eliminating 100% of human errors.",
+    ],
   },
   {
     id: 4,
@@ -283,7 +288,7 @@ export const experiences = [
     org: "3Cycle",
     role: "Embedded Developer",
     terminal_name: "3cycle",
-    date: "OCTOBER 2023 - PRESENT",
+    date: "OCTOBER 2023 - SEPT 2024",
     description:
       "Worked on embedded systems for automation of shredding and filament processing to develop a sustainable circular ecosystem for 3D printing waste recycling.",
   },
@@ -294,7 +299,7 @@ export const experiences = [
     terminal_name: "ocmc_cto",
     date: "MAY 2023 - SEPT 2025",
     description:
-      "Led the technology team for the Ontario Competitive Mathematics Committee, developing the user portal from the ground up.",
+      "Led the technology team for the Ontario Competitive Mathematics Committee. Built a full-stack MERN application from the ground up handling user registration, contest administration, online challenges, score tracking, and news distribution for 2000+ registered participants.",
   },
   {
     id: 7,
@@ -303,7 +308,7 @@ export const experiences = [
     terminal_name: "famil_pilot",
     date: "SEPTEMBER 2022 - PRESENT",
     description:
-      "Volunteered as a famil pilot at a designated CFS in Wingham. Also taught as a flight theory instructor at 540 Sqn.",
+      "On contract with the Department of National Defence (DND) as a Civilian Instructor. Serving as a glider familiarization pilot at a designated CFS in Wingham and teaching flight theory at 540 Sqn.",
   },
 ] as const;
 
