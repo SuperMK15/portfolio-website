@@ -1,6 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0a0a0a;
+  --color-foreground: #e0e0e0;
+  --color-terminal-green: #00ff41;
+  --color-terminal-dim: #00cc33;
+  --color-terminal-dark: #009922;
+  --color-accent: #00ff41;
+  --color-surface: #111111;
+  --color-surface-light: #1a1a1a;
+  --color-border: #222222;
+  --color-border-light: #333333;
+  --color-muted: #666666;
+  --font-mono: var(--font-geist-mono);
+}
 
 /* Base styles */
 html {
@@ -8,9 +21,9 @@ html {
 }
 
 body {
-  background: #0a0a0a;
-  color: #e0e0e0;
-  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-mono), ui-monospace, monospace;
 }
 
 ::selection {
