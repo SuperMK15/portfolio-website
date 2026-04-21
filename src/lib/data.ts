@@ -232,7 +232,7 @@ export const experiences = [
     terminal_name: "aws",
     date: "SEPT 2025 - APRIL 2026",
     description:
-      "Working as a Software Development Engineer Intern on the AWS Keyspaces team, focusing on optimizing load balancing and connection-shedding via ML-driven automation for a serverless Cassandra-compatible database.",
+      "Worked as a Software Development Engineer Intern on the AWS Keyspaces team, focusing on optimizing load balancing and connection-shedding via ML-driven automation for a serverless Cassandra-compatible database.",
     bullets: [
       "Architected a connection-level management layer in Kotlin atop a Java-based distributed messaging bus, implementing ML-driven load-balancing and load-shedding policies across 10+ regions and 20+ AZs.",
       "Engineered an agentic AI/ML automation system in Python utilizing RL/LSTM policies and LLMs to autonomously remediate host throttling, reducing on-call burden by 25%.",

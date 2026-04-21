@@ -10,7 +10,7 @@ export default function About() {
           ABOUT
         </h2>
 
-        <div className="rounded-lg overflow-hidden border border-border mb-6">
+        <div className="rounded-lg overflow-hidden border-2 border-terminal-dark/40 mb-6">
           <Image
             src="/manasva_banner.jpg"
             alt="Manasva Katyal banner"

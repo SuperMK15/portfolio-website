@@ -62,7 +62,7 @@ export default function Hero() {
                 alt="Manasva Katyal"
                 width={700}
                 height={700}
-                className="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-2 border-terminal-dark/40 object-cover"
+                className="w-36 h-36 sm:w-40 sm:h-40 rounded-full border-2 border-terminal-dark/40 object-cover"
                 priority
               />
             </div>
