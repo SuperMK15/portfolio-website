@@ -8,7 +8,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Manasva Katyal | Firmware & Embedded Systems",
+  title: "Manasva Katyal Portfolio",
   description:
     "Personal website of Manasva Katyal — UWaterloo CS, embedded systems, firmware, aviation.",
 };
