@@ -11,7 +11,6 @@ export default function Contact() {
     { label: "github", value: "SuperMK15", href: "https://github.com/SuperMK15" },
     { label: "linkedin", value: "manasvakatyal", href: "https://linkedin.com/in/manasvakatyal" },
     { label: "website", value: "manasvakatyal.tech", href: "https://manasvakatyal.tech" },
-    { label: "resume", value: "resume.pdf", href: "https://drive.google.com/file/d/1h6b5aXJrZPdmlCJf2oF9NuVBUucAVotR/view?usp=sharing" },
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {

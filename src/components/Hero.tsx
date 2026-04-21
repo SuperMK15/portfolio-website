@@ -96,9 +96,21 @@ export default function Hero() {
             </div>
 
             <div className="text-muted mb-1">$ cat /proc/awards</div>
-            <div className="text-foreground">
+            <div className="text-foreground mb-4">
               🏆 Schulich Leader Scholarship — Most prestigious STEM scholarship
               for Canadian undergraduates
+            </div>
+
+            <div className="text-muted mb-1">$ cat /proc/resume</div>
+            <div className="text-foreground">
+              <a
+                href="https://drive.google.com/file/d/1h6b5aXJrZPdmlCJf2oF9NuVBUucAVotR/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-terminal-green text-terminal-green px-4 py-2 rounded text-xs hover:bg-terminal-green/10 transition-colors inline-block"
+              >
+                $ cat resume.pdf
+              </a>
             </div>
           </div>
         </div>
