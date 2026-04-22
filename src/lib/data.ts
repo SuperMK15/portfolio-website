@@ -234,10 +234,10 @@ export const experiences = [
     description:
       "Worked as a Software Development Engineer Intern on the AWS Keyspaces team, focusing on optimizing load balancing and connection-shedding via ML-driven automation for a serverless Cassandra-compatible database.",
     bullets: [
-      "Architected a connection-level management layer in Kotlin atop a Java-based distributed messaging bus, implementing ML-driven load-balancing and load-shedding policies across 10+ regions and 20+ AZs.",
-      "Engineered an agentic AI/ML automation system in Python utilizing RL/LSTM policies and LLMs to autonomously remediate host throttling, reducing on-call burden by 25%.",
-      "Developed a global table anti-entropy resolution tool in Kotlin/Python, automating a manual 1-day/week workflow into a single-click, 30-minute operation.",
-      "Implemented a storage-node admission controller with fixed-size executors and per-partition bucketed scheduling, reducing service-level 500s, heap-usage, and latency spikes.",
+      "Architected a connection-level management layer in Kotlin atop a Java-based distributed messaging bus for a serverless Cassandra service, implementing ML-driven load-balancing and load-shedding policies that provided fine-grained traffic control across 10+ regions and 20+ Availability Zones.",
+      "Engineered an agentic AI/ML automation system in Python utilizing RL/LSTM policies and LLMs to autonomously remediate host throttling via dynamic connection redistribution, reducing on-call burden by 25%.",
+      "Developed a global table anti-entropy (AE) resolution tool in Kotlin/Python, automating a manual 1-day/week operator workflow into a single-click, 30-minute operation for data aggregation, divergence repair, and reporting.",
+      "Implemented a storage-node admission controller and validated at scale, replacing unbounded thread pools with fixed-size executors and per-partition bucketed scheduling; greatly improved hot-partition performance via fair-share queuing and in-flight depth throttling, reducing service-level 500s, heap-usage, and latency spikes.",
     ],
   },
   {
@@ -249,10 +249,10 @@ export const experiences = [
     description:
       "Worked on the embedded software team at BETA Technologies, focusing on developing and testing flight software for electric vertical takeoff and landing (eVTOL) aircraft.",
     bullets: [
-      "Developed safety-critical firmware in C for TMS570 MCUs to control next-gen eVTOL lift electric engines, interfacing with 3 Flight Control Computers and cross-channel inverters over CAN bus.",
-      "Implemented drivers including phase voltage/current sampling from an HSADC with mibSPI-triggered DMA, RS485/ARINC429/CAN communication, and an RTOS scheduler profiler.",
-      "Engineered robust PBIT/CBIT diagnostics for real-time inverter and engine health monitoring, supporting FAA-compliant DO-178C safety objectives.",
-      "Architected an inverter software-in-the-loop (SITL) with a custom engine plant model and fully mocked HAL, enabling rapid firmware & controls validation independent of physical hardware.",
+      "Developed safety-critical firmware in C for TMS570 MCUs to control next-generation eVTOL lift electric engines, including interfacing with 3 Flight Control Computers and cross-channel inverters over the CAN bus protocol.",
+      "Implemented drivers and application logic including phase voltage/current sampling from an HSADC with mibSPI-triggered DMA, RS485/ARINC429/CAN communication, an RTOS scheduler profiler and more.",
+      "Engineered robust PBIT/CBIT diagnostics for real-time inverter and engine health monitoring, enhancing system reliability and supporting FAA-compliant DO-178C safety objectives.",
+      "Architected an inverter software-in-the-loop (SITL) with a custom engine plant model and fully mocked hardware abstraction layer, enabling rapid firmware & controls validation/debugging independent of physical hardware.",
     ],
   },
   {
@@ -266,7 +266,7 @@ export const experiences = [
     bullets: [
       "Developed autonomous applications based on the OODA control loop for next-gen telecommunications networks, focusing on UPF congestion and network slice management to approach an L5 autonomous network.",
       "Leveraged cloud-native technologies including Docker and Kubernetes, coding custom Kubernetes operators in Go to enable intent-based networking and MLOps for seamless cloud runtime management.",
-      "Developed a Crossplane-based edge cloud automation solution, cutting deployment time by over 95% from 2 hours to under 5 minutes, eliminating 100% of human errors.",
+      "Developed a Crossplane-based edge cloud automation solution, cutting deployment time by over 95% from 2 hours to under 5 minutes, resulting in reduced infrastructure costs and eliminating 100% of human errors.",
     ],
   },
   {
@@ -278,8 +278,8 @@ export const experiences = [
     description:
       "Led system architecture, technical direction and flight-testing for a 100+ student UAV design team, placing 1st at AEAC 2024 & 2025. Architected ZeroPilot, a FreeRTOS-based STM32 flight controller in C++ with real-time telemetry, EKF sensor fusion, and fly-by-wire control.",
     bullets: [
-      "Led system architecture, technical direction and flight-testing efforts for a student UAV design team of over 100 students, placing 1st in AEAC 2024 & 2025 competitions.",
-      "Architected ZeroPilot, a FreeRTOS-based STM32 flight controller in C++ enabling real-time coordination of telemetry, EKF sensor fusion, and fly-by-wire flight control subsystems.",
+      "Led system architecture, technical direction and flight-testing efforts for a student UAV design team of over 100 students, placing first in the Aerial Evolution Association of Canada (AEAC) 2024 & 2025 competitions.",
+      "Architected ZeroPilot, a FreeRTOS-based STM32 flight controller in C++ enabling real-time coordination of telemetry, EKF sensor fusion, and fly-by-wire flight control subsystems, flying successfully in flight tests.",
       "Led development and integration of DMA-enabled UART, SPI, and I2C drivers using STM32 HAL for drone peripherals including GPS, RFD900, Magnetometer, Barometer, IMU, Power Module.",
     ],
   },
