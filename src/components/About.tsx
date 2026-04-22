@@ -38,7 +38,7 @@ export default function About() {
 
           <p className="text-foreground mb-4">
             I am currently working at{" "}
-            <span className="text-terminal-green">AWS</span> as an SDE Intern,
+            <span className="text-terminal-green">AWS</span>{" "}as an SDE Intern,
             on load-balancing and connection-shedding optimization for Keyspaces,
             a serverless Cassandra-compatible database service. In the past,
             I&apos;ve worked on embedded software for electric aircraft at{" "}
