@@ -228,7 +228,7 @@ export const experiences = [
   {
     id: 1,
     org: "AWS",
-    role: "SDE Intern",
+    role: "Software Development Engineer Intern",
     terminal_name: "aws",
     date: "SEPT 2025 - APRIL 2026",
     description:
@@ -243,7 +243,7 @@ export const experiences = [
   {
     id: 2,
     org: "BETA Technologies",
-    role: "Embedded Software Intern",
+    role: "Embedded Flight Software Intern",
     terminal_name: "beta",
     date: "MAY 2025 - AUGUST 2025",
     description:
@@ -276,7 +276,7 @@ export const experiences = [
     terminal_name: "uwarg",
     date: "SEPTEMBER 2023 - PRESENT",
     description:
-      "Led system architecture, technical direction and flight-testing for a 100+ student UAV design team, placing 1st at AEAC 2024 & 2025. Architected ZeroPilot, a FreeRTOS-based STM32 flight controller in C++ with real-time telemetry, EKF sensor fusion, and fly-by-wire control.",
+      "Leading the technical direction of the University of Waterloo's Aerial Robotics Group (UWARG), overseeing the design and development of autonomous UAVs for research and competition purposes.",
     bullets: [
       "Led system architecture, technical direction and flight-testing efforts for a student UAV design team of over 100 students, placing first in the Aerial Evolution Association of Canada (AEAC) 2024 & 2025 competitions.",
       "Architected ZeroPilot, a FreeRTOS-based STM32 flight controller in C++ enabling real-time coordination of telemetry, EKF sensor fusion, and fly-by-wire flight control subsystems, flying successfully in flight tests.",
@@ -303,8 +303,8 @@ export const experiences = [
   },
   {
     id: 7,
-    org: "540 Golden Hawks",
-    role: "Famil Pilot & Flight Theory Instructor",
+    org: "Wingham CFS & 540 Golden Hawks RCACS",
+    role: "Familiarization Pilot & Flight Theory Instructor",
     terminal_name: "famil_pilot",
     date: "SEPTEMBER 2022 - PRESENT",
     description:
