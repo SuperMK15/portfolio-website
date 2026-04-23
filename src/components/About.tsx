@@ -28,23 +28,40 @@ export default function About() {
 
           <p className="text-foreground mb-4">
             Hello, my name is <span className="text-terminal-green">Manasva</span>!
-            I am a third-year student at the University of Waterloo, pursuing a
-            Computer Science degree with a{" "}
-            <span className="text-terminal-dim">
+            I am a third-year student at{" "}
+            <span className="text-terminal-green">University of Waterloo</span>, pursuing a
+            <span className="text-terminal-green"> Computer Science</span> degree with a{" "}
+            <span className="text-terminal-green">
               Digital Hardware specialization
             </span>
             .
           </p>
 
           <p className="text-foreground mb-4">
-            I am currently working at{" "}
-            <span className="text-terminal-green">AWS</span>{" "}as an SDE Intern,
-            on load-balancing and connection-shedding optimization for Keyspaces,
-            a serverless Cassandra-compatible database service. In the past,
-            I&apos;ve worked on embedded software for electric aircraft at{" "}
+            I am currently seeking new opportunities where I can apply my experience in
+            distributed systems, embedded software, and AI/ML to solve challenging problems.
+            In the past, I&apos;ve worked as an SDE Intern at{" "}
+            <span className="text-terminal-green">AWS</span> on core service improvements
+            for Keyspaces, a serverless Cassandra-compatible database, as well as on
+            embedded software for electric aircraft at{" "}
             <span className="text-terminal-green">BETA Technologies</span> and
             next-generation autonomous networks at{" "}
             <span className="text-terminal-green">Nokia</span>.
+          </p>
+
+          <p className="text-foreground mb-4">
+            I also serve as{" "}
+            <span className="text-terminal-green">Technical Director</span> and previously
+            served as{" "}
+            <span className="text-terminal-green">Embedded Flight Software Lead</span> at the {" "}
+            <span className="text-terminal-green">Waterloo Aerial Robotics Group (WARG)</span>, where I lead 
+            system architecture and flight software development for a 100+ member UAV team, 
+            contributing to first-place finishes at the{" "}
+            <span className="text-terminal-green">AEAC 2024</span> and{" "}
+            <span className="text-terminal-green">AEAC 2025</span> competitions. I also lead
+            the architecture and development of{" "}
+            <span className="text-terminal-green">ZeroPilot</span>, a FreeRTOS-based STM32
+            flight controller that has successfully flown in real-world testing.
           </p>
 
           <p className="text-foreground mb-4">

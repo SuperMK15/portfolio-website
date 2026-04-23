@@ -232,12 +232,12 @@ export const experiences = [
     terminal_name: "aws",
     date: "SEPT 2025 - APRIL 2026",
     description:
-      "Worked as a Software Development Engineer Intern on the AWS Keyspaces team, focusing on optimizing load balancing and connection-shedding via ML-driven automation for a serverless Cassandra-compatible database.",
+      "Worked as a Software Development Engineer Intern on the AWS Keyspaces team, developing core infrastructure for a fully managed, serverless Cassandra-compatible database enabling highly available, multi-region data workloads at scale.",
     bullets: [
       "Architected a connection-level management layer in Kotlin atop a Java-based distributed messaging bus for a serverless Cassandra service, implementing ML-driven load-balancing and load-shedding policies that provided fine-grained traffic control across 10+ regions and 20+ Availability Zones.",
       "Engineered an agentic AI/ML automation system in Python utilizing RL/LSTM policies and LLMs to autonomously remediate host throttling via dynamic connection redistribution, reducing on-call burden by 25%.",
       "Developed a global table anti-entropy (AE) resolution tool in Kotlin/Python, automating a manual 1-day/week operator workflow into a single-click, 30-minute operation for data aggregation, divergence repair, and reporting.",
-      "Implemented a storage-node admission controller and validated at scale, replacing unbounded thread pools with fixed-size executors and per-partition bucketed scheduling; greatly improved hot-partition performance via fair-share queuing and in-flight depth throttling, reducing service-level 500s, heap-usage, and latency spikes.",
+      "Implemented a storage-node admission controller and validated at scale, replacing unbounded thread pools with fixed-size executors and per-partition bucketed scheduling; greatly improved hot-partition performance for ATSO writes (10x reduction in p99 latency metrics) via fair-share queuing and in-flight depth throttling, reducing service-level 500s, heap-usage, and latency spikes.",
     ],
   },
   {
