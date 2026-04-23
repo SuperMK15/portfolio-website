@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col scanline">
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
