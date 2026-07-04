@@ -227,6 +227,16 @@ export type Project = (typeof projects)[number];
 export const experiences = [
   {
     id: 1,
+    org: "Tesla",
+    role: "Embedded Software Engineer Intern",
+    terminal_name: "tesla",
+    date: "JAN 2027 - APRIL 2027",
+    description:
+      "Incoming W27, Drive Systems Team (Embedded Software & Controls Engineering)",
+    bullets: []
+  },
+  {
+    id: 2,
     org: "AWS",
     role: "Software Development Engineer Intern",
     terminal_name: "aws",
@@ -241,7 +251,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     org: "BETA Technologies",
     role: "Embedded Flight Software Intern",
     terminal_name: "beta",
@@ -256,7 +266,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     org: "Nokia",
     role: "AI/ML & Automation Intern",
     terminal_name: "nokia",
@@ -270,7 +280,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     org: "UWARG",
     role: "Technical Director",
     terminal_name: "uwarg",
@@ -284,7 +294,7 @@ export const experiences = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     org: "3Cycle",
     role: "Embedded Developer",
     terminal_name: "3cycle",
@@ -293,7 +303,7 @@ export const experiences = [
       "Worked on embedded systems for automation of shredding and filament processing to develop a sustainable circular ecosystem for 3D printing waste recycling.",
   },
   {
-    id: 6,
+    id: 7,
     org: "OCMC",
     role: "Chief Technology Officer",
     terminal_name: "ocmc_cto",
@@ -302,7 +312,7 @@ export const experiences = [
       "Led the technology team for the Ontario Competitive Mathematics Committee. Built a full-stack MERN application from the ground up handling user registration, contest administration, online challenges, score tracking, and news distribution for 2000+ registered participants.",
   },
   {
-    id: 7,
+    id: 8,
     org: "Wingham CFS & 540 Golden Hawks RCACS",
     role: "Familiarization Pilot & Flight Theory Instructor",
     terminal_name: "famil_pilot",
