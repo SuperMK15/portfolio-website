@@ -28,7 +28,7 @@ export default function About() {
 
           <p className="text-foreground mb-4">
             Hello, my name is <span className="text-terminal-green">Manasva</span>!
-            I am a third-year student at{" "}
+            I am a third-year student at the{" "}
             <span className="text-terminal-green">University of Waterloo</span>, pursuing a
             <span className="text-terminal-green"> Computer Science</span> degree with a{" "}
             <span className="text-terminal-green">
