@@ -74,6 +74,28 @@ export const projects = [
   },
   {
     id: 8,
+    name: "ELRS Link PCB",
+    terminal_name: "elrs-link-pcb",
+    image: "/elrs-link-pcb.png",
+    description:
+      "Custom 2.4 GHz ExpressLRS link board featuring an ESP32-C3, SX1281 LoRa transceiver, and dedicated RF front-end with external antenna connectivity.",
+    tags: ["pcb", "kicad", "esp32", "lora", "elrs", "rf"],
+    source_code: "https://github.com/SuperMK15/ELRS_Link_PCB",
+    pdf: "https://github.com/SuperMK15/ELRS_Link_PCB/blob/main/ELRS_Link.pdf",
+  },
+  {
+    id: 9,
+    name: "12S Servo 5V2 Buck PCB",
+    terminal_name: "12s-servo-buck-pcb",
+    image: "/12s-servo-buck-pcb.png",
+    description:
+      "12S battery to 5V2 Servo Buck Converter; efficiently steps down a 12S battery (36V-50.4V) to 5.2V and supports up to 8A of draw via the LM65680RZYR buck switching regulator IC.",
+    tags: ["pcb", "kicad", "buck-converter"],
+    source_code: "https://github.com/SuperMK15/12S_Servo_5V2_Buck_PCB",
+    pdf: "https://github.com/SuperMK15/12S_Servo_5V2_Buck_PCB/blob/main/Helios_12S_Servo_5V2_Buck.pdf",
+  },
+  {
+    id: 10,
     name: "WATIsGrass: UW Tunnels",
     terminal_name: "watisgrass",
     image: "/watisgrass.png",
@@ -84,7 +106,7 @@ export const projects = [
     demo: "https://watisgrass.vercel.app/",
   },
   {
-    id: 9,
+    id: 11,
     name: "GitAgent",
     terminal_name: "gitagent",
     image: "/gitagent.png",
@@ -95,7 +117,7 @@ export const projects = [
     demo: "https://gitagent.streamlit.app/",
   },
   {
-    id: 10,
+    id: 12,
     name: "AI ATC",
     terminal_name: "ai-atc",
     image: "/ai-atc.png",
@@ -106,7 +128,7 @@ export const projects = [
     demo: "https://ai-atc.vercel.app/",
   },
   {
-    id: 11,
+    id: 13,
     name: "OCMC Participant Portal",
     terminal_name: "ocmc-portal",
     image: "/ocmc.png",
@@ -116,7 +138,7 @@ export const projects = [
     demo: "https://www.ontariocmc.ca/",
   },
   {
-    id: 12,
+    id: 14,
     name: "Stud.AI - AI Study Tool",
     terminal_name: "studai",
     image: "/studai.png",
@@ -127,7 +149,7 @@ export const projects = [
     demo: "https://studai-8en7.onrender.com/",
   },
   {
-    id: 13,
+    id: 15,
     name: "Arduino Projects",
     terminal_name: "arduino-projects",
     image: "/arduino.png",
@@ -137,7 +159,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/hardware-projects/",
   },
   {
-    id: 14,
+    id: 16,
     name: "WorkSheeps - AI Powered Markbook",
     terminal_name: "worksheeps",
     image: "/worksheeps.png",
@@ -148,7 +170,7 @@ export const projects = [
     demo: "https://worksheeps.tech/",
   },
   {
-    id: 15,
+    id: 17,
     name: "SpriteSheet Maker",
     terminal_name: "spritesheet-maker",
     image: "/spritesheet-maker.png",
@@ -159,7 +181,7 @@ export const projects = [
     demo: "https://spritesheetmaker.onrender.com/",
   },
   {
-    id: 16,
+    id: 18,
     name: "SFML 2D Legend of Zelda Style Game",
     terminal_name: "loz-game",
     image: "/loz.png",
@@ -169,7 +191,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/SFML-LoZ-Game/",
   },
   {
-    id: 17,
+    id: 19,
     name: "Aviation Weather App",
     terminal_name: "aviation-weather",
     image: "/avia.png",
@@ -180,7 +202,7 @@ export const projects = [
     demo: "https://aviation-weather-app.onrender.com/",
   },
   {
-    id: 18,
+    id: 20,
     name: "UWaterloo CSC Trivia Night Application",
     terminal_name: "csc-trivia",
     image: "/csc-trivia.png",
@@ -191,7 +213,7 @@ export const projects = [
     demo: "https://csc-trivia-app.onrender.com/",
   },
   {
-    id: 19,
+    id: 21,
     name: "Canada Chess Parent & Teacher Portal",
     terminal_name: "chess-portal",
     image: "/canadachess.png",
@@ -201,7 +223,7 @@ export const projects = [
     demo: "https://client.canadachess.ca/",
   },
   {
-    id: 20,
+    id: 22,
     name: "Food4Kids Inventory Management System",
     terminal_name: "food4kids",
     image: "/food4kids.png",
@@ -211,7 +233,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/Food4Kids/",
   },
   {
-    id: 21,
+    id: 23,
     name: "IB Results Checker",
     terminal_name: "ib-results",
     image: "/selenium.png",
@@ -227,6 +249,16 @@ export type Project = (typeof projects)[number];
 export const experiences = [
   {
     id: 1,
+    org: "Etched",
+    role: "Embedded Software Engineer Intern",
+    terminal_name: "etched",
+    date: "MAY 2027 - AUGUST 2027",
+    description:
+      "Incoming S27, Embedded Software & ASIC Architecture",
+    bullets: [],
+  },
+  {
+    id: 2,
     org: "Tesla",
     role: "Embedded Software Engineer Intern",
     terminal_name: "tesla",
@@ -236,7 +268,7 @@ export const experiences = [
     bullets: []
   },
   {
-    id: 2,
+    id: 3,
     org: "AWS",
     role: "Software Development Engineer Intern",
     terminal_name: "aws",
@@ -251,7 +283,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     org: "BETA Technologies",
     role: "Embedded Flight Software Intern",
     terminal_name: "beta",
@@ -266,7 +298,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     org: "Nokia",
     role: "AI/ML & Automation Intern",
     terminal_name: "nokia",
@@ -280,7 +312,7 @@ export const experiences = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     org: "UWARG",
     role: "Technical Director",
     terminal_name: "uwarg",
@@ -294,7 +326,7 @@ export const experiences = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     org: "3Cycle",
     role: "Embedded Developer",
     terminal_name: "3cycle",
@@ -303,7 +335,7 @@ export const experiences = [
       "Worked on embedded systems for automation of shredding and filament processing to develop a sustainable circular ecosystem for 3D printing waste recycling.",
   },
   {
-    id: 7,
+    id: 8,
     org: "OCMC",
     role: "Chief Technology Officer",
     terminal_name: "ocmc_cto",
@@ -312,7 +344,7 @@ export const experiences = [
       "Led the technology team for the Ontario Competitive Mathematics Committee. Built a full-stack MERN application from the ground up handling user registration, contest administration, online challenges, score tracking, and news distribution for 2000+ registered participants.",
   },
   {
-    id: 8,
+    id: 9,
     org: "Wingham CFS & 540 Golden Hawks RCACS",
     role: "Familiarization Pilot & Flight Theory Instructor",
     terminal_name: "famil_pilot",
