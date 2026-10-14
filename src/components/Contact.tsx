@@ -10,7 +10,7 @@ export default function Contact() {
     { label: "email", value: "manasva.katyal@gmail.com", href: "mailto:manasva.katyal@gmail.com" },
     { label: "github", value: "SuperMK15", href: "https://github.com/SuperMK15" },
     { label: "linkedin", value: "manasvakatyal", href: "https://linkedin.com/in/manasvakatyal" },
-    { label: "website", value: "manasvakatyal.tech", href: "https://manasvakatyal.tech" },
+    { label: "website", value: "manasvakatyal.xyz", href: "https://manasvakatyal.xyz" },
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
