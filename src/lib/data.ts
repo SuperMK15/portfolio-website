@@ -96,6 +96,17 @@ export const projects = [
   },
   {
     id: 10,
+    name: "ARC Reactor PCB",
+    terminal_name: "arc-reactor-pcb",
+    image: "/arc-reactor-pcb.png",
+    description:
+      "A custom-designed 9-LED WS2812B arc reactor board featuring an ESP32-C3-MINI-1 module, native USB-C, 4S/2S LiPo support, an AP63205 fixed 5V buck converter, LM66200DRLR power OR-ing, and an AP2112K-3.3 LDO.",
+    tags: ["pcb", "kicad", "esp32", "ws2812", "embedded", "C++", "platformio"],
+    source_code: "https://github.com/SuperMK15/ARC_Reactor_PCB",
+    pdf: "https://github.com/SuperMK15/ARC_Reactor_PCB/blob/main/Arc_Reactor_PCB.pdf",
+  },
+  {
+    id: 11,
     name: "WATIsGrass: UW Tunnels",
     terminal_name: "watisgrass",
     image: "/watisgrass.png",
@@ -106,7 +117,7 @@ export const projects = [
     demo: "https://watisgrass.vercel.app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "GitAgent",
     terminal_name: "gitagent",
     image: "/gitagent.png",
@@ -117,7 +128,7 @@ export const projects = [
     demo: "https://gitagent.streamlit.app/",
   },
   {
-    id: 12,
+    id: 13,
     name: "AI ATC",
     terminal_name: "ai-atc",
     image: "/ai-atc.png",
@@ -128,7 +139,7 @@ export const projects = [
     demo: "https://ai-atc.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     name: "OCMC Participant Portal",
     terminal_name: "ocmc-portal",
     image: "/ocmc.png",
@@ -138,7 +149,7 @@ export const projects = [
     demo: "https://www.ontariocmc.ca/",
   },
   {
-    id: 14,
+    id: 15,
     name: "Stud.AI - AI Study Tool",
     terminal_name: "studai",
     image: "/studai.png",
@@ -149,7 +160,7 @@ export const projects = [
     demo: "https://studai-8en7.onrender.com/",
   },
   {
-    id: 15,
+    id: 16,
     name: "Arduino Projects",
     terminal_name: "arduino-projects",
     image: "/arduino.png",
@@ -159,7 +170,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/hardware-projects/",
   },
   {
-    id: 16,
+    id: 17,
     name: "WorkSheeps - AI Powered Markbook",
     terminal_name: "worksheeps",
     image: "/worksheeps.png",
@@ -170,7 +181,7 @@ export const projects = [
     demo: "https://worksheeps.tech/",
   },
   {
-    id: 17,
+    id: 18,
     name: "SpriteSheet Maker",
     terminal_name: "spritesheet-maker",
     image: "/spritesheet-maker.png",
@@ -181,7 +192,7 @@ export const projects = [
     demo: "https://spritesheetmaker.onrender.com/",
   },
   {
-    id: 18,
+    id: 19,
     name: "SFML 2D Legend of Zelda Style Game",
     terminal_name: "loz-game",
     image: "/loz.png",
@@ -191,7 +202,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/SFML-LoZ-Game/",
   },
   {
-    id: 19,
+    id: 20,
     name: "Aviation Weather App",
     terminal_name: "aviation-weather",
     image: "/avia.png",
@@ -202,7 +213,7 @@ export const projects = [
     demo: "https://aviation-weather-app.onrender.com/",
   },
   {
-    id: 20,
+    id: 21,
     name: "UWaterloo CSC Trivia Night Application",
     terminal_name: "csc-trivia",
     image: "/csc-trivia.png",
@@ -213,7 +224,7 @@ export const projects = [
     demo: "https://csc-trivia-app.onrender.com/",
   },
   {
-    id: 21,
+    id: 22,
     name: "Canada Chess Parent & Teacher Portal",
     terminal_name: "chess-portal",
     image: "/canadachess.png",
@@ -223,7 +234,7 @@ export const projects = [
     demo: "https://client.canadachess.ca/",
   },
   {
-    id: 22,
+    id: 23,
     name: "Food4Kids Inventory Management System",
     terminal_name: "food4kids",
     image: "/food4kids.png",
@@ -233,7 +244,7 @@ export const projects = [
     source_code: "https://github.com/SuperMK15/Food4Kids/",
   },
   {
-    id: 23,
+    id: 24,
     name: "IB Results Checker",
     terminal_name: "ib-results",
     image: "/selenium.png",
